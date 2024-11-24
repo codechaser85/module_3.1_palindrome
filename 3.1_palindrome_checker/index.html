@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Palindrome Checker</h1>
+
+        <!-- Form to enter and submit the word -->
+        <form onsubmit="return checkPalindrome(event)">
+            <!-- Input field for the user -->
+            <input type="text" id="inputField" placeholder="Enter a word" required>
+            
+            <!-- Button to submit word entered -->
+            <button type="submit">Check</button>
+        </form>
+
+        <!-- Section for displaying the result -->
+        <div id="result" class="result-message"></div>
+    </div>
+    
+    <div>
+        <script src = "script.js"></script>
+    </div>
+</body>
+</html>
